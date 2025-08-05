@@ -1,3 +1,30 @@
+# 💹 CodeAlpha Stock Trading Platform
+
+This project is a **console-based stock trading simulator** built in **Java**. It was developed as part of the **Java Programming Internship** at **CodeAlpha**. The app allows users to buy and sell stocks, view market data, and track their portfolio using Object-Oriented Programming concepts.
+
+---
+
+## 📌 Features
+
+- 📈 View live market stock prices (predefined)
+- 🛒 Buy and sell stocks using virtual cash
+- 📊 Track your portfolio and balance
+- 🧠 Object-Oriented Design: `Stock`, `Portfolio`, `Main`
+- 💻 100% Console-based Java app
+
+---
+
+## 💡 Technologies Used
+
+- Java (JDK 8+)
+- Java Collections (Map, HashMap)
+- Scanner for console input
+- Conditionals and loops
+- Any Java IDE or Online Compiler
+
+---
+
+## 📸 Code
 import java.util.*;
 
 // Represents a stock in the market
@@ -110,39 +137,32 @@ public class Main {
         scanner.close();
     }
 }
-Output :
-? --- Stock Trading Menu ---
-1. View Market
-2. Buy Stock
-3. Sell Stock
-4. View Portfolio
-5. Exit
-Select option (1-5): 1
+## 📸 Sample Output
+📈 --- Stock Trading Menu ---
 
-? --- Market Data ---
-GOOG : $2750.25
+View Market
+
+Buy Stock
+
+Sell Stock
+
+View Portfolio
+
+Exit
+Select option: 1
+
 AAPL : $180.5
+GOOG : $2750.25
 TSLA : $720.1
 
-? --- Stock Trading Menu ---
-1. View Market
-2. Buy Stock
-3. Sell Stock
-4. View Portfolio
-5. Exit
-Select option (1-5): 2
+Select option: 2
 Enter stock symbol to buy: AAPL
 Enter quantity: 10
-? Bought 10 shares of AAPL
+✅ Bought 10 shares of AAPL
 
-? --- Stock Trading Menu ---
-1. View Market
-2. Buy Stock
-3. Sell Stock
-4. View Portfolio
-5. Exit
-Select option (1-5): 4
+Select option: 4
 
-? --- Portfolio Summary ---
+📊 --- Portfolio Summary ---
 AAPL: 10 shares, Current Value: $1805.0
-? Cash Balance: $8195.00
+💰 Cash Balance: $8195.00
+
